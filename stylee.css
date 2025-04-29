@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  #sidebar {
+    width: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    background: #f8f8f8;
+    border-right: 1px solid #ccc;
+  }
+  
+  #sidebar h2 {
+    margin-top: 0;
+  }
+  
+  #map {
+    flex: 1;
+  }
+  
+  #locationList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #locationList li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  #locationList li:hover {
+    background: #e0e0e0;
+  }
+  
+  #searchBox, #filterCategory {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
